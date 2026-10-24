@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Taskflow.css">
+    <script src="Taskflow.js" defer></script>
+    <title>Taskflow</title>
+</head>
+<body>
+    <div id="app">
+        <div class="button-group">
+    
+         <button class="sidebar-view" data-view="all">TO-DO</button>      
+        <button class="sidebar-view" data-view="important">Important</button>
+        <button class="sidebar-view" data-view="completed">Completed</button>
+        <button class="sidebar-view" data-view="removed">Removed</button>
+        <button class="sidebar-view" data-view="due-soon">Due soon</button>
+    </div>
+    <main>
+        <h1 id="viewTitle">TO-DO</h1>
+        <input type="text" id="searchInput" placeholder="Enter a task or search Task">
+        <button id="newTaskBtn">+ New Task</button>
+        
+        <div id="taskList"></div>
+    </main>
+    
+    
+
+    </div>
+    
+</body>
+</html>
